@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos de Machine Learning</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0A1172;
+            text-align: center;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            background-color: #ADD8E6;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            max-width: 1200px;
+            margin: 50px auto;
+            background-color: #ADD8E6;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile {
+            width: 30%;
+            text-align: center;
+        }
+
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .section .interests img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .section .interests img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .profile h2 {
+            margin: 10px 0 5px;
+            font-size: 24px;
+        }
+
+        .profile p {
+            margin: 5px 0;
+            color: gray;
+        }
+
+        .profile .social-icons a {
+            margin: 0 5px;
+            color: #333;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .content {
+            width: 70%;
+            padding-left: 30px;
+        }
+
+        .content h2 {
+            margin-top: 0;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section h3 {
+            margin-bottom: 10px;
+        }
+
+        .interests, .education {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .subscription-box {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+      width: 300px;
+      margin: 50px auto;
+    }
+
+    .subscription-box h2 {
+      margin-bottom: 15px;
+      color: #003366;
+    }
+
+    .subscription-box input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    .subscription-box button {
+      width: 100%;
+      padding: 10px;
+      background-color: #003366;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .subscription-box button:hover {
+      background-color: #005f99;
+    }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="nav-links">
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">CONTACT</a>
+            <a href="#">TOOLS</a>
+            <a href="#">EDUCATION</a>
+        </div>
+        <div class="theme-toggle">
+            <i class="fas fa-moon"></i>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="profile">
+            <img src="https://multimedia-nivelics-prod.s3.amazonaws.com/multimediaStrapi/future_artificial_intelligence_robot_cyborg_31965_6980_2eb499dce4.png" alt="Profile Picture">
+            <h2>Machine Learning</h2>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="section">
+                <h2>Fundamentos de Machine Learning</h2>
+                <p>
+                    Recientemente seguro que has escuchado hablar del machine learning y de la inteligencia artificial, sobre todo con relación a nuevas herramientas como ChatGPT. ¿Pero sabes lo que significa y para qué sirve?
+
+                    En este artículo, exploraremos los fundamentos de la inteligencia artificial, la evolución hasta el machine learning, y sus aplicaciones y beneficios ¡Comencemos!
+
+                    Para entender bien el aprendizaje automático, debemos comprender los fundamentos de la inteligencia artificial. La inteligencia artificial es un campo que busca desarrollar sistemas que puedan realizar tareas que requieren inteligencia humana, como el reconocimiento de imágenes, el procesamiento del lenguaje natural, la toma de decisiones, entre otras.
+                </p>
+            </div>
+
+            <div class="section">
+                <div class="interests">
+                    <div>
+                        <h3>Interests</h3>
+                        <p>Artificial Intelligence</p>
+                        <p>Computer Science</p>
+                    </div>
+                    <div>
+                        <img src="https://down-br.img.susercontent.com/file/c11b55d05294bc6363e9543a531cdf47.webp" alt="Profile Picture">
+                    </div>
+                    <div>
+                        <img src="https://5.imimg.com/data5/SELLER/Default/2022/3/JC/DR/ZK/148281495/202002021512-500x500.png" alt="Profile Picture">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="subscription-box">
+        <h2>Suscríbete</h2>
+        <p>Recibe noticias y actualizaciones directamente en tu correo.</p>
+        <form action="#">
+          <input type="email" placeholder="Introduce tu correo" required />
+          <button type="submit">Suscribirse</button>
+        </form>
+      </div>
+</body>
+
+</html>
